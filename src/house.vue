@@ -1,3 +1,11 @@
+<!--
+ * @Author: li2022 liqing@linkon.me
+ * @Date: 2023-03-15 19:14:26
+ * @LastEditors: li2022 liqing@linkon.me
+ * @LastEditTime: 2023-03-16 21:02:26
+ * @FilePath: \law\src\house.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <script setup>
 import { reactive } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
@@ -31,8 +39,8 @@ const go=item=>{
 </script>
 <template>
     <div class="d-flex align-items-center top">
-        <van-icon name="arrow-left" size="26" @click="router.go(-1)"/>
-       <div class="justify-content-center size-20 flex-1">{{ route.query.name }}</div> 
+        <van-icon name="arrow-left" size="22" @click="router.go(-1)"/>
+       <div class="justify-content-center size-18 flex-1">{{ route.query.name }}</div> 
     </div>
     <div class="d-flex showbox" v-for="item in dataVal.list" @click="go(item.url)">
         <van-image width="160px" height="100px" class="border_10 hidden" fit="cover" :src="item.image"></van-image>
@@ -44,8 +52,8 @@ const go=item=>{
 </template>
 <style lang="less" scoped>
 .top{
-    height: 54px;
-    background-color:rgba(rgb(255, 253, 253), .8);
+    height: 46px;
+    background-color:rgba(rgb(255, 253, 253), 1);
 }
 .showbox {
     background-color: rgba(rgb(30, 29, 29), .7);
