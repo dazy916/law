@@ -1,8 +1,12 @@
+<!--
+ * @Author: li2022 liqing@linkon.me
+ * @Date: 2023-03-15 19:14:26
+ * @LastEditors: li2022 liqing@linkon.me
+ * @LastEditTime: 2023-03-16 21:00:15
+ * @FilePath: \law\src\App.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-// import HelloWorld from './index.vue'
-import { ref } from 'vue'
 
 </script>
 
@@ -18,10 +22,15 @@ import { ref } from 'vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   /* padding-bottom: 2rem; */
+  height: 100vh;
+    background-image: url('assets/image/bottombg.png');
+    background-size: contain;
+    background-position:bottom center;
+    background-repeat: no-repeat;
 }
 body {
   height: 100vh;
-  background-image: linear-gradient(to bottom right, #013e3d, #002623);
+  background-image: linear-gradient(to bottom right, #bc0000, #920202);
 }
 .nav {
   background-image: linear-gradient(#013e3d, #002623);
