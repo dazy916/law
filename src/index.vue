@@ -2,7 +2,7 @@
  * @Author: li2022 liqing@linkon.me
  * @Date: 2023-03-15 19:14:26
  * @LastEditors: li2022 liqing@linkon.me
- * @LastEditTime: 2023-03-16 21:00:51
+ * @LastEditTime: 2023-03-16 21:19:38
  * @FilePath: \law\src\index.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -11,8 +11,8 @@ import { useRoute, useRouter } from 'vue-router'
 import { reactive } from 'vue'
 const router = useRouter()
 const dataVal = reactive({ list: ['贵阳市', '遵义市', '六盘水市', '安顺市', '毕节市', '铜仁市', '黔东南州', '黔南州', '黔西南州' ] });
-const goDetail = item => {
-    router.push('house?name=' + item)
+const goDetail = (item,idx) => {
+    router.push('house?name=' + item+'&idx='+idx)
 } 
 </script>
 <template>
@@ -20,7 +20,7 @@ const goDetail = item => {
         <!-- <b class=" mb-4"> 第九批贵州省“全国民主法治示范村（社区）”</b>
             VR全景展播 -->
         <div class="d-flex space-around flex-wrap">
-            <div class="box" v-for="item in dataVal.list" @click="goDetail(item)">{{ item }}
+            <div class="box" v-for="(item,idx) in dataVal.list" @click="goDetail(item,idx)">{{ item }}
             </div>
         </div>
     </div>
