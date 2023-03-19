@@ -10,38 +10,63 @@
 import { useRoute, useRouter } from 'vue-router'
 import { reactive } from 'vue'
 const router = useRouter()
-const dataVal = reactive({ list: ['贵阳市', '遵义市', '六盘水市', '安顺市', '毕节市', '铜仁市', '黔东南州', '黔南州', '黔西南州' ] });
-const goDetail = (item,idx) => {
-    router.push('house?name=' + item+'&idx='+idx)
+const dataVal = reactive({ list: ['贵阳市', '遵义市', '六盘水市', '安顺市', '毕节市', '铜仁市', '黔东南州', '黔南州', '黔西南州'] });
+const goDetail = (item, idx) => {
+    router.push('house?name=' + item + '&idx=' + idx)
 } 
 </script>
 <template>
     <div class="topbox size-14">
-        <!-- <b class=" mb-4"> 第九批贵州省“全国民主法治示范村（社区）”</b>
-            VR全景展播 -->
-        <div class="d-flex space-around flex-wrap">
-            <div class="box" v-for="(item,idx) in dataVal.list" @click="goDetail(item,idx)">{{ item }}
+        <div class="toptext mb-4"> 第九批贵州省<br />“全国民主法治示范村（社区）”<br />
+            VR全景展播</div>
+        <div class="d-flex contentbox">
+            <div class="box" v-for="(item, idx) in dataVal.list" @click="goDetail(item, idx)">{{ item }}
             </div>
-        </div>
+        </div><i></i><i></i><i></i><i></i><i></i>
     </div>
 </template>
 <style lang="less" scoped>
 .topbox {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // color: #fff;
-    // padding: 20px 0 40px 0;
-    // height: 300px;
     background-image: url('assets/image/topbg.png');
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
-    padding-top: 46%;
+    padding-top: 10%;
+
+    .toptext {
+        width: 80%;
+        margin: 30px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        color: #fcca6e;
+        font-weight: bold;
+        line-height: 40px;
+    }
+}
+
+.contentbox {
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    i {
+        width: 120px;
+        padding: 6px 20px;
+        box-sizing: border-box;
+        margin: 20px;
+    }
+}
+
+@media only screen and (min-width: 890px) {
+    .contentbox {
+        justify-content: flex-start;
+    }
 }
 
 .box {
-    min-width: 120px;
+    width: 120px;
     padding: 6px 20px;
     box-sizing: border-box;
     margin: 20px;
@@ -51,15 +76,23 @@ const goDetail = (item,idx) => {
     font-weight: bold;
     border-radius: 16px;
     border: 1px solid #ff5050;
+    cursor: pointer;
 
     &:hover {
         font-weight: bold;
-        color: darkslategrey;
-        background-color: rgba(234, 198, 153);
+        color: #fcca6e;
+        // background-color: rgb(243, 16, 0);
+        background-image: linear-gradient(to bottom right, #ff2600, #a70b00);
     }
 
-    // &:last-child:nth-child(2n+2 ){
-    //     margin-right: calc((100% - 140px) / 2 );
+    // &:last-child:nth-child(4n-1 ){
+    //     margin-right: calc((100% - ((4n-1) * 120px))/3);
+    // }
+    // &:last-child:nth-child(4n-2 ){
+    //     margin-right: calc((100% - 140px)/2);
+    // }
+    // &:last-child:nth-child(1 ){
+    //     margin-right: calc(120px + 70px);
     // }
 }
 

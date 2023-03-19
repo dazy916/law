@@ -11,12 +11,16 @@ import { reactive, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import image1 from './assets/image/1.jpg'
 import image2 from './assets/image/2.jpg'
-// import image3 from './assets/image/3.jpg'
-// import image4 from './assets/image/4.jpg'
-// import image5 from './assets/image/5.jpg'
-// import image6 from './assets/image/6.jpg'
-// import image7 from './assets/image/7.jpg'
-// import image8 from './assets/image/8.jpg'
+import image3 from './assets/image/3.jpg'
+import image4 from './assets/image/4.jpg'
+import image5 from './assets/image/5.jpg'
+import image6 from './assets/image/6.jpg'
+import image7 from './assets/image/7.jpg'
+import image8 from './assets/image/8.jpg'
+import image9 from './assets/image/9.jpg'
+import image10 from './assets/image/10.jpg'
+import image11 from './assets/image/11.jpg'
+import image12 from './assets/image/12.jpg'
 const route = useRoute()
 const router = useRouter()
 const dataVal = reactive({
@@ -37,63 +41,63 @@ const dataVal = reactive({
         {
             title: '贵州省贵阳市花溪区石板镇镇山村',
             address: '贵州省贵阳市花溪区石板镇镇山村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image3,
             url: 'https://www.720yun.com/vr/3202furfaca'
         },
         {
             title: '贵州省修文县六屯镇大木村',
             address: '贵州省修文县六屯镇大木村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image4,
             url: 'https://www.720yun.com/vr/a8422u86yns'
         }],
     list2: [
         {
             title: '贵州省遵义市汇川区上海路街道航宇社区',
             address: '贵州省遵义市汇川区上海路街道航宇社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image5,
             url: 'https://www.720yun.com/vr/fb5jOrskku3'
         },
         {
             title: '贵州省绥阳县枧坝镇黄鱼村',
             address: '贵州省绥阳县枧坝镇黄鱼村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image6,
             url: 'https://www.720yun.com/vr/1c0jOrekrf4'
         },
         {
             title: '贵州省正安县瑞濠街道新龙孔社区',
             address: '贵州省正安县瑞濠街道新龙孔社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image7,
             url: 'https://www.720yun.com/vr/177jOrekrf1'
         },
         {
             title: '贵州省赤水市葫市镇小关子村',
             address: '贵州省赤水市葫市镇小关子村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image8,
             url: 'https://www.720yun.com/vr/8bd2auikxbv'
         },
         {
             title: '贵州省仁怀市五马镇龙里村',
             address: '贵州省仁怀市五马镇龙里村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image9,
             url: 'https://www.720yun.com/vr/977jOrmOvf6'
         }],
     list3: [
         {
             title: '水城区新街彝族苗族布依族乡大元村',
             address: '水城区新街彝族苗族布依族乡大元村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image10,
             url: 'https://www.720yun.com/vr/690jOruvuw2'
         },
         {
             title: '贵州省盘州市盘关镇海坝村',
             address: '贵州省盘州市盘关镇海坝村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image11,
             url: 'https://www.720yun.com/vr/100jOrskOn9'
         },
         {
             title: '贵州省六盘水市六枝特区落别布依族彝族乡牛角村',
             address: '贵州省六盘水市六枝特区落别布依族彝族乡牛角村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image12,
             url: 'https://www.720yun.com/vr/e1bjOrskOw5'
         }],
     list4: [

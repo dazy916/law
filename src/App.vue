@@ -30,27 +30,7 @@
 }
 body {
   height: 100vh;
-  background-image: linear-gradient(to bottom right, #bc0000, #920202);
-}
-.nav {
-  background-image: linear-gradient(#013e3d, #002623);
+  background-image: linear-gradient(to bottom, #ff0001, #920202);
 }
 
-.line{
-  position: fixed;
-  bottom: var(--van-tabbar-height);
-  width: 100vw;
-  height: 2px;
-  background-color: #eac699;
-}
-.house{
-  position: fixed;
-  right: 12%;
-  bottom: var(--van-tabbar-height);
-  width: 70px;
-  height: 25px;
-  background-image: url('./assets/image/house.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 </style>
