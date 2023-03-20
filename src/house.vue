@@ -298,6 +298,7 @@ onMounted(() => {
             break;
     }
 })
+
 </script>
 <template>
     <div class="d-flex align-items-center top">
