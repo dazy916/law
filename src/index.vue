@@ -21,8 +21,8 @@ onMounted(() => {
 })
 </script>
 <template>
-    <div class="topbox size-14">
-        <div class="toptext mb-4"> 第九批贵州省<template v-if="dataVal.flag"><br/></template>“全国民主法治示范村（社区）”
+    <div class="topbox ">
+        <div class="toptext"> 第九批贵州省<template v-if="dataVal.flag"><br/></template>“全国民主法治示范村（社区）”
             <template v-if="dataVal.flag"><br/></template>
             VR全景展播</div>
         <div class="d-flex contentbox">
@@ -41,13 +41,13 @@ onMounted(() => {
 
     .toptext {
         width: 90%;
-        margin: 30px auto 0 auto;
+        margin: 30px auto;
         display: flex;
         flex-direction: column;
-        font-size: 20px;
         color: #fcca6e;
         font-weight: bold;
         line-height: 40px;
+        font-size: 20px;
     }
 }
 
@@ -55,7 +55,7 @@ onMounted(() => {
     width: 90%;
     margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
     i {
         width: 120px;
@@ -67,13 +67,24 @@ onMounted(() => {
 
 @media only screen and (min-width: 1600px) {
     .topbox{
-        padding-top: 200px;
+        padding-top: 300px;
+        .toptext{
+            font-size: 40px;
+            margin-bottom: 100px;
+        }
     }
     .contentbox {
         justify-content: space-around;
     }
 }
-@media only screen and (max-width: 1599px) {
+@media only screen and (min-width: 899px) and (max-width: 1599px) { 
+    .topbox{
+        padding-top: 300px;
+        .toptext{
+            font-size: 40px;
+            margin-bottom: 100px;
+        }
+    }
     .contentbox {
         justify-content: flex-start;
     }

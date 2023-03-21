@@ -21,6 +21,32 @@ import image9 from './assets/image/9.jpg'
 import image10 from './assets/image/10.jpg'
 import image11 from './assets/image/11.jpg'
 import image12 from './assets/image/12.jpg'
+import image13 from './assets/image/13.jpg'
+import image14 from './assets/image/14.jpg'
+import image15 from './assets/image/15.jpg'
+import image16 from './assets/image/16.jpg'
+import image17 from './assets/image/17.jpg'
+import image18 from './assets/image/18.jpg'
+import image19 from './assets/image/19.jpg'
+import image20 from './assets/image/20.jpg'
+import image21 from './assets/image/21.jpg'
+import image22 from './assets/image/22.jpg'
+import image23 from './assets/image/23.jpg'
+import image24 from './assets/image/24.jpg'
+import image25 from './assets/image/25.jpg'
+import image26 from './assets/image/26.jpg'
+import image27 from './assets/image/27.jpg'
+import image28 from './assets/image/28.jpg'
+import image29 from './assets/image/29.jpg'
+import image30 from './assets/image/30.jpg'
+import image31 from './assets/image/31.jpg'
+import image32 from './assets/image/32.jpg'
+import image33 from './assets/image/33.jpg'
+import image34 from './assets/image/34.jpg'
+import image35 from './assets/image/35.jpg'
+import image36 from './assets/image/36.jpg'
+import image37 from './assets/image/37.jpg'
+import image38 from './assets/image/38.jpg'
 const route = useRoute()
 const router = useRouter()
 const dataVal = reactive({
@@ -104,162 +130,162 @@ const dataVal = reactive({
         {
             title: '贵州省安顺市西秀区马槽社区服务中心新天地社区',
             address: '贵州省安顺市西秀区马槽社区服务中心新天地社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image13,
             url: 'https://www.720yun.com/vr/f38jOrskOO1'
         },
         {
             title: '贵州省安顺市平坝区乐平镇大屯村',
             address: '贵州省安顺市平坝区乐平镇大屯村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image14,
             url: 'https://www.720yun.com/vr/537jOrskOO2'
         },
         {
             title: '贵州省普定县白岩镇韭黄村',
             address: '贵州省普定县白岩镇韭黄村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image15,
             url: 'https://www.720yun.com/vr/518jOrskOw7'
         },
         {
             title: '贵州省关岭布依族苗族自治县顶云街道石板井村',
             address: '贵州省关岭布依族苗族自治县顶云街道石板井村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image16,
             url: 'https://www.720yun.com/vr/394jOrskOw2'
         }],
     list5: [
         {
             title: '贵州省织金县惠民街道惠泽社区',
             address: '贵州省织金县惠民街道惠泽社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image17,
             url: 'https://www.720yun.com/vr/60djOdtfvf7'
         },
         {
             title: '贵州省纳雍县骔岭镇小屯社区',
             address: '贵州省纳雍县骔岭镇小屯社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image18,
             url: 'https://www.720yun.com/vr/eb9jOruvun5'
         },
         {
             title: '贵州省威宁彝族回族苗族自治县新发布依族乡啊嘎村',
             address: '贵州省威宁彝族回族苗族自治县新发布依族乡啊嘎村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image19,
             url: 'https://www.720yun.com/vr/2aajOruvuw4'
         },
         {
             title: '贵州省毕节市七星关区朱昌镇双堰社区',
             address: '贵州省毕节市七星关区朱昌镇双堰社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image20,
             url: 'https://www.720yun.com/vr/ae8jOruvuw9'
         },
         {
             title: '贵州省大方县凤山彝族蒙古族乡店子村',
             address: '贵州省大方县凤山彝族蒙古族乡店子村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image21,
             url: 'https://www.720yun.com/vr/600jOruvuO6'
         }],
     list6: [
         {
             title: '贵州省德江县堰塘土家族乡高家湾社区',
             address: '贵州省德江县堰塘土家族乡高家湾社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image22,
             url: 'https://www.720yun.com/vr/e7cjOrekrk7'
         },
         {
             title: '贵州省沿河土家族自治县沙子街道黄金村',
             address: '贵州省沿河土家族自治县沙子街道黄金村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image23,
             url: 'https://www.720yun.com/vr/bfdjOrekrk2'
         },
         {
             title: '贵州省铜仁市万山区高楼坪侗族乡青年湖村',
             address: '贵州省铜仁市万山区高楼坪侗族乡青年湖村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image24,
             url: 'https://www.720yun.com/vr/b74jOrekrv8'
         },
         {
             title: '贵州省铜仁市碧江区云场坪镇路腊村',
             address: '贵州省铜仁市碧江区云场坪镇路腊村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image25,
             url: 'https://www.720yun.com/vr/752jOrekra5'
         }],
     list7: [
         {
             title: '贵州省台江县排羊乡九摆村',
             address: '贵州省台江县排羊乡九摆村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image26,
             url: 'https://www.720yun.com/vr/8b0jOrekrv2'
         },
         {
             title: '贵州省麻江县金竹街道官井湖社区',
             address: '贵州省麻江县金竹街道官井湖社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image27,
             url: 'https://www.720yun.com/vr/12ajOrekuO6'
         },
         {
             title: '贵州省榕江县定威水族乡定旦村',
             address: '贵州省榕江县定威水族乡定旦村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image28,
             url: 'https://www.720yun.com/vr/4ffjOrwkra9'
         },
         {
             title: '贵州省镇远县羊场镇金盆村',
             address: '贵州省镇远县羊场镇金盆村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image29,
             url: 'https://www.720yun.com/vr/8bdjOrekrv4'
         }],
     list8: [
         {
             title: '贵州省独山县百泉镇百泉湖村',
             address: '贵州省德江县堰塘土家族乡高家湾社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image30,
             url: 'https://www.720yun.com/vr/f7bjOrwkra6'
         },
         {
             title: '贵州省荔波县佳荣镇大土村',
             address: '贵州省荔波县佳荣镇大土村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image31,
             url: 'https://www.720yun.com/vr/50ejOrwkrk3'
         },
         {
             title: '贵州省罗甸县红水河镇云里村',
             address: '贵州省罗甸县红水河镇云里村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image32,
             url: 'https://www.720yun.com/vr/c03jOrwfsy3'
         },
         {
             title: '贵州省长顺县广顺镇核子村',
             address: '贵州省长顺县广顺镇核子村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image33,
             url: 'https://www.720yun.com/vr/8a3jOrskOO5'
         },
         {
             title: '贵州省龙里县醒狮镇大岩村',
             address: '贵州省龙里县醒狮镇大岩村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image34,
             url: 'https://www.720yun.com/vr/97ejOrskOO6'
         }],
     list9: [
         {
             title: '贵州省望谟县新屯街道新屯村',
             address: '贵州省望谟县新屯街道新屯村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image35,
             url: 'https://www.720yun.com/vr/2b1jOrwfsy9'
         },
         {
             title: '贵州省贞丰县双峰街道茶林社区',
             address: '贵州省贞丰县双峰街道茶林社区',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image36,
             url: 'https://www.720yun.com/vr/737jOrwfsm4'
         },
         {
             title: '贵州省安龙县笃山镇梨树村',
             address: '贵州省安龙县笃山镇梨树村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image37,
             url: 'https://www.720yun.com/vr/bf1jOrwfsm5'
         },
         {
             title: '贵州省兴义市则戎镇冷洞村',
             address: '贵州省兴义市则戎镇冷洞村',
-            image: 'http://vr.yun.bafang720.com/926/works/3b937f9dd55ced7e/thumb.jpg',
+            image: image38,
             url: 'https://www.720yun.com/vr/612jOrwfsn1'
         }],
 
