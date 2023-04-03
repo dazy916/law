@@ -235,7 +235,7 @@ const dataVal = reactive({
     list8: [
         {
             title: '贵州省独山县百泉镇百泉湖村',
-            address: '贵州省德江县堰塘土家族乡高家湾社区',
+            address: '贵州省独山县百泉镇百泉湖村',
             image: image30,
             url: 'https://www.720yun.com/vr/f7bjOrwkra6'
         },
